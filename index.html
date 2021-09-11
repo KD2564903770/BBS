@@ -1,0 +1,770 @@
+<html lang="zh-CN" style="position: fixed; width: 100%; overflow: hidden; "><head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=1200">
+    <title>首页 - YbtOJ</title>
+    
+    <link href="/cdnjs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+    <link href="/self/tomorrow.css" rel="stylesheet">
+    <link href="/self/math.css" rel="stylesheet">
+    <link href="/self/style.css?20181212" rel="stylesheet">
+    <link href="/cdnjs/morris.js/0.5.1/morris.css" rel="stylesheet">
+    
+      <link href="/google-fonts/fira-mono.css" rel="stylesheet">
+      <link href="/google-fonts/lato.css" rel="stylesheet">
+      <link href="/google-fonts/open-sans.css" rel="stylesheet">
+      <link href="/google-fonts/exo-2.css" rel="stylesheet">
+    
+    <script src="/cdnjs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/dayjs.min.js"></script>
+    
+<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
+<body style="position: relative; margin-top: 49px; height: calc(100% - 49px); overflow-y: overlay; "> 
+  <div class="ui fixed borderless menu" style="position: fixed; height: 49px; ">  
+    <div class="ui container">
+            
+            <a class="header item" href="/"><span style="font-family: 'Exo 2'; font-size: 1.5em; font-weight: 600; ">YbtOJ</span></a>
+            
+            
+            
+            
+            <a class="item" href="/course/2"><i class="book icon"></i> 高效进阶2021</a>
+            
+            <a class="item" href="/problems"><i class="list icon"></i> 题库</a>
+            <a class="item" href="/contests"><i class="calendar icon"></i> 比赛</a>
+            <a class="item" href="/submissions"><i class="tasks icon"></i> 评测</a>
+            
+            
+            <div class="right menu">
+              
+              <a href="/user/898" style="color: inherit; ">
+              </a><div class="ui simple dropdown item"><a href="/user/898" style="color: inherit; ">
+                clyzwry1 <i class="dropdown icon"></i>
+                </a><div class="menu"><a href="/user/898" style="color: inherit; ">
+                  </a><a class="item" href="/user/898/edit"><i class="edit icon"></i>修改资料</a>
+                  
+                  
+                  <a class="item" href-post="/logout?url=%2F"><i class="power icon"></i>注销</a>
+                </div>
+              </div>
+              
+                
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 28px; ">
+    <div class="ui main container">
+
+<div class="padding">
+  <div class="ui three column grid">
+    <div class="eleven wide column">
+      <h4 class="ui top attached block header"><i class="ui info icon"></i>公告</h4>
+      <div class="ui bottom attached segment">
+        <table class="ui very basic table">
+          <thead>
+            <tr>
+              <th>标题</th>
+              <th>时间</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+                <tr>
+                    <td><a href="/article/2">YbtOJ 题面规范</a></td>
+                    <td>2020-05-03</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/article/1">YbtOJ 公告</a></td>
+                    <td>2020-05-03</td>
+                </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      
+      <h4 class="ui top attached block header"><i class="ui signal icon"></i>排名</h4>
+      <div class="ui bottom attached segment">
+        <table class="ui very basic center aligned table" style="table-layout: fixed; ">
+          <thead>
+            <tr>
+	            <th style="width: 50px; ">#</th>
+              <th style="width: 150px; ">用户名</th>
+              <th style="width: 150px; ">姓名</th>
+	            <th>个性签名</th>
+            </tr>
+          </thead>
+          <script>
+          var lineHeight = 0;
+          (function () {
+            var div = document.createElement('div');
+            div.style.position = 'fixed';
+            div.style.left = -10000;
+            div.style.visibility = 'hidden';
+            div.innerText = '测试，Test.';
+            document.body.appendChild(div);
+            lineHeight = div.clientHeight;
+          })();
+          </script>
+          <tbody>
+            
+                <tr>
+                    <td><b>1</b></td>
+                    <td><a href="/user/1">Menci</a></td>
+                    <td>nickname</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>2</b></td>
+                    <td><a href="/user/2">admin</a></td>
+                    <td>董永建</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>3</b></td>
+                    <td><a href="/user/3">fjclyz</a></td>
+                    <td>董永建</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>4</b></td>
+                    <td><a href="/user/4">dyj</a></td>
+                    <td>董永建</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>5</b></td>
+                    <td><a href="/user/5">DXR</a></td>
+                    <td>董欣然</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>6</b></td>
+                    <td><a href="/user/6">changle_cyx</a></td>
+                    <td>陈煜翔</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>7</b></td>
+                    <td><a href="/user/7">clyzchzhc</a></td>
+                    <td>陈浩泽</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>8</b></td>
+                    <td><a href="/user/8">clyzlzx2005</a></td>
+                    <td>林喆熹</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>9</b></td>
+                    <td><a href="/user/9">clyzctjcalc</a></td>
+                    <td>陈霆钧</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>10</b></td>
+                    <td><a href="/user/10">clyzwangjunrui</a></td>
+                    <td>王君睿</td>
+                    <td style="font-content">
+                      cjtcalc&amp;&amp;lzx2005 NOI2022金牌超稳 
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>11</b></td>
+                    <td><a href="/user/11">clyzkeke</a></td>
+                    <td>柯宁皓</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>12</b></td>
+                    <td><a href="/user/12">clyzcjtcalc</a></td>
+                    <td>陈建涛</td>
+                    <td style="font-content">
+                      https://www.bilibili.com/video/BV1GJ411x7h7
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>13</b></td>
+                    <td><a href="/user/13">clyzRossie</a></td>
+                    <td>邹振扬</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>14</b></td>
+                    <td><a href="/user/14">clyz3066624019</a></td>
+                    <td>林明泉</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>15</b></td>
+                    <td><a href="/user/16">Antares</a></td>
+                    <td>米哲灏</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>16</b></td>
+                    <td><a href="/user/17">clyzcgz2006</a></td>
+                    <td>陈冠中</td>
+                    <td style="font-content">
+                      我好菜啊
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>17</b></td>
+                    <td><a href="/user/18">clyzllzj</a></td>
+                    <td>刘李子晋</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>18</b></td>
+                    <td><a href="/user/19">Amadeus</a></td>
+                    <td>潘云舟</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>19</b></td>
+                    <td><a href="/user/20">clyzchenhuan</a></td>
+                    <td>陈欢</td>
+                    <td style="font-content">
+                      #$camellia$   $ tcl$#
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td><b>20</b></td>
+                    <td><a href="/user/21">clyzxxxyf</a></td>
+                    <td>谢羽菲</td>
+                    <td style="font-content">
+                      
+                    </td>
+                </tr>
+             
+          </tbody>
+        </table>
+      </div>
+      
+    </div>
+    <div class="right floated five wide column">
+      
+      <h4 class="ui top attached block header"><i class="ui search icon"><div class="results"></div></i>搜索题目</h4>
+      <div class="ui bottom attached segment">
+        <form action="/problems/search" method="get">
+          <div class="ui search" style="width: 100%; ">
+            <div class="ui left icon input" style="width: 100%; ">
+              <input class="prompt" style="width: 100%; " type="text" placeholder="ID / 题目名 …" name="keyword" autocomplete="off">
+              <i class="search icon"></i>
+            </div>
+            <div class="results" style="width: 100%; "></div>
+          </div>
+        </form>
+      </div>
+      <h4 class="ui top attached block header"><i class="ui calendar icon"></i>近期比赛</h4>
+      <div class="ui bottom attached segment">
+        
+        <table class="ui very basic center aligned table">
+          <thead>
+            <tr>
+              <th>比赛名称</th>
+              <th>开始时间</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a id="link-199" href="#">
+                  <script>
+                    $(function () {
+                      $("#link-199").popup({
+                        popup: $("#popup-199"),
+                        on: "click"
+                      });
+                    });
+                  </script>
+                
+
+                CSP/NOIP 入门级模拟赛 Day3 <span class="ui header"><div class="ui mini red label">未开始</div></span>
+                </a>
+                <div id="popup-199" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/199">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-20 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a id="link-208" href="#">
+                  <script>
+                    $(function () {
+                      $("#link-208").popup({
+                        popup: $("#popup-208"),
+                        on: "click"
+                      });
+                    });
+                  </script>
+                
+
+                冲刺 NOIP2021 模拟赛 B 组 Day3 <span class="ui header"><div class="ui mini red label">未开始</div></span>
+                </a>
+                <div id="popup-208" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/208">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-18 18:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a id="link-209" href="#">
+                  <script>
+                    $(function () {
+                      $("#link-209").popup({
+                        popup: $("#popup-209"),
+                        on: "click"
+                      });
+                    });
+                  </script>
+                
+
+                冲刺 NOIP2021 模拟赛 A 组 Day3 <span class="ui header"><div class="ui mini red label">未开始</div></span>
+                </a>
+                <div id="popup-209" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/209">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-18 18:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/200">
+                
+
+                CSP/NOIP 入门级模拟赛 Day2 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-200" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/200">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-11 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/206">
+                
+
+                冲刺 NOIP2021 模拟赛 B 组 Day2 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-206" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/206">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-11 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/207">
+                
+
+                冲刺 NOIP2021 模拟赛 A 组 Day2 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-207" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/207">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-11 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/202">
+                
+
+                冲刺 NOIP2021 模拟赛 B 组 Day1 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-202" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/202">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-04 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/203">
+                
+
+                冲刺 NOIP2021 模拟赛 A 组 Day1 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-203" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/203">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-04 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/205">
+                
+
+                CSP/NOIP 入门级模拟赛 Day1  <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-205" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/205">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-09-04 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/189">
+                
+
+                高手专项训练-最后一场良心赛 A组 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-189" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/189">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-07-26 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/22">
+                
+
+                入门到进阶模拟赛 Day16 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-22" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/22">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-07-06 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/20">
+                
+
+                入门到进阶模拟赛 Day15 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-20" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/20">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-07-05 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/21">
+                
+
+                入门到进阶模拟赛 Day14 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-21" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/21">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-07-03 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/19">
+                
+
+                入门到进阶模拟赛 Day13 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-19" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/19">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-07-02 8:00:00</td>
+            </tr>
+            
+            <tr>
+              
+                
+              
+              <td style="position: relative;">
+                
+                <a href="/contest/18">
+                
+
+                入门到进阶模拟赛 Day12 <span class="ui header"><div class="ui mini grey label">已结束</div></span>
+                </a>
+                <div id="popup-18" class="ui popup top transition hidden" style="text-align: left;">
+                  <p>确认参加该比赛吗？</p>
+                  <a class="ui primary button" href="/contest/18">
+                    确定
+                  </a>
+                </div>
+              </td>
+              <td>2021-06-12 14:00:00</td>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+      </div>
+      
+        
+        <!--h4 class="ui top attached block header"><i class="ui magic icon"></i>今日运势</h4>
+        <div class="ui bottom attached segment">
+            <div style="height: 15px; "></div>
+            <div class="ui two column center aligned padded grid">
+                <div class="one column row">
+                    <div style="text-align: center; ">
+                        <div style="color: #0ccf00; font-size: 49px;">♂ 小凶 ♀</div>
+                    </div>
+                </div>
+                <div class="two column row">
+                    <div class="column">
+                        <div style="color: #f25e65; ">
+                            
+                            <strong>宜：</strong>学数论
+                            <br>
+                            <span style="color: #888; font-size: 0.7em; ">思维敏捷</span>
+                            <div style="margin-top: 10px; "></div>
+                            <strong>宜：</strong>装弱
+                            <br>
+                            <span style="color: #888; font-size: 0.7em; ">我好菜啊</span>
+                            
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div style="color: #0ccf00; ">
+                            
+                            <strong>忌：</strong>直播写代码
+                            <br>
+                            <span style="color: #888; font-size: 0.7em; ">CE, RE and T，身败名裂</span>
+                            <div style="margin-top: 10px; "></div>
+                            <strong>忌：</strong>参加模拟赛
+                            <br>
+                            <span style="color: #888; font-size: 0.7em; ">爆零</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div-->
+        
+        <!--h4 class="ui top attached block header"><i class="ui quote left icon"></i>一言（ヒトコト）</h4>
+        <div class="ui bottom attached center aligned segment">
+          <div class="ui active centered inline loader" id="hitokoto-loader"></div>
+          <script>
+          $.get('https://v1.hitokoto.cn/?c=a', function (data) {
+            if (typeof data === 'string') data = JSON.parse(data);
+            $('#hitokoto-loader').removeClass('active');
+            $('#hitokoto-content').css('display', '').text(data.hitokoto);
+            if (data.from) {
+              $('#hitokoto-from').css('display', '').text('——' + data.from);
+            }
+          });
+          </script>
+          <div style="font-size: 1em; line-height: 1.5em; display: none; " id="hitokoto-content"></div>
+          <div style="text-align: right; margin-top: 15px; font-size: 0.9em; color: #666; display: none; " id="hitokoto-from"></div>
+        </div-->
+      
+      <!--h4 class="ui top attached block header font-content"><i class="ui linkify icon"></i>友情链接</h4>
+      <div class="ui bottom attached segment">
+        <ul style="margin: 0; padding-left: 20px; ">
+          
+            <li><a href="https://loj.ac/">LibreOJ</a></li>
+          
+        </ul>
+      </div-->
+      
+    </div>
+  </div>
+</div>
+<script>
+$(function () {
+  $('.ui.search').search({
+    debug: true,
+    apiSettings: {
+      url: '/api/v2/search/problems/{query}',
+      cache: false
+    },
+    fields: {
+      title: 'name'
+    }
+  });
+});
+</script>
+</div>
+    <div class="ui vertical footer segment" style="margin-top: 15px; ">
+      <div class="ui center aligned container">
+        
+        <span style="color: #999;">YbtOJ Powered by <a href="https://github.com/syzoj/syzoj" target="_blank">SYZOJ</a>.<br>Server time: <span id="server-time">2021/09/11 17:27:44</span></span>
+        <script>
+          setInterval(function () {
+            $("#server-time").text(dayjs($("#server-time").text()).add(1, "second").format("YYYY/MM/DD HH:mm:ss"))
+          }, 1000);
+        </script>
+      </div>
+    </div>
+</div><div style="position: fixed; visibility: hidden;">测试，Test.</div>
+<script src="/cdnjs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script src="/cdnjs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+<script src="/self/script.js?20170710"></script>
+
+
+
+</body></html>
